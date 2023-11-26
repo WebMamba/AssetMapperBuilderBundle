@@ -1,0 +1,24 @@
+{
+    "name": "webmamba/asset-mapper-builder-bundle",
+    "description": "Build utils for Symfony AssetMapper",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "WebMamba\\AssetMapperBuilderBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "webmamba",
+            "email": "matheo.daninos@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/process": "^6.3",
+        "symfony/console": "^6.3"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": "^6.3"
+    }
+}
